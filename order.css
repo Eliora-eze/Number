@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "red hat";
+    src: url(./RedHatDisplay-VariableFont_wght.ttf);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "red hat";
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:   hsl(225, 100%, 94%);
+    height: 100vh;
+    width: 100%;
+    
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 11px;
+}
+
+.order-description h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.button1{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 11px;
+    padding-left: 5px;
+    padding-right:12px;
+    width:60%;
+    align-items: center;
+    color:  hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.change{
+color:  hsl(245, 75%, 52%); 
+font-weight: 700;  
+}
+
+.cancel{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.ttt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.all{
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.like{
+    color:  hsl(224, 23%, 55%);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+
+.now{
+    padding-top: 20px;
+    font-weight: 900;
+}
